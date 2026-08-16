@@ -25,7 +25,7 @@ export function SignupPage() {
         {submitted ? (
           <div className="success-panel" role="status">
             <div className="success-icon">✓</div>
-            <h2>Successed!</h2>
+            <h2>Account Created!</h2>
             <p>Thanks, {name}. In a production app, the next step would verify your email and create the account.</p>
             <Link className="primary-button button-link" to="/login">Return to login</Link>
           </div>
