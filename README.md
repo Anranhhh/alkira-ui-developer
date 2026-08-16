@@ -139,16 +139,3 @@ src/
   styles.css
   types.ts
 ```
-
-## Demo walkthrough suggestion
-
-For a short recorded demo, show the following in order:
-
-1. Briefly show the project structure and `README` run command.
-2. Submit an empty login form and then an invalid email to demonstrate validation.
-3. Log in as the **read-only** user, complete MFA, and show that edit/create controls are disabled.
-4. Sign out.
-5. Log in as the **read/write** user, complete MFA, and open an Edit dialog.
-6. Refresh the protected page to show the session survives a refresh.
-7. Sign out, manually visit `/dashboard`, and show that the protected route redirects to login.
-8. Run `npm test` and briefly explain what the tests cover.
