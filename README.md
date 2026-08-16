@@ -101,13 +101,7 @@ For a real application, authorization must also be enforced by backend APIs. In 
 ### 5. Session storage is used for refresh resilience
 The mock auth state is stored in `sessionStorage` so refreshing the page does not immediately destroy the demo flow, while closing the browser tab/session naturally clears it. No sensitive production credentials should ever be stored this way.
 
-### 6. Minimal dependencies
-I avoided a UI library and form library so the core decisions are easy to inspect and explain. Form validation is intentionally small and explicit.
-
-### 7. Accessibility was considered
-Inputs are associated with labels, validation text is wired through `aria-describedby`, invalid fields use `aria-invalid`, the MFA code supports `one-time-code`, and disabled controls remain understandable to assistive technology.
-
-## Known limitations
+## Limitations
 
 - No real authentication service, token handling, backend session, or API authorization.
 - Mock credentials and MFA codes are visible in the client bundle by design.
