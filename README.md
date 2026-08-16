@@ -152,7 +152,3 @@ For a short recorded demo, show the following in order:
 6. Refresh the protected page to show the session survives a refresh.
 7. Sign out, manually visit `/dashboard`, and show that the protected route redirects to login.
 8. Run `npm test` and briefly explain what the tests cover.
-
-## AI usage
-
-AI was used as a development assistant for brainstorming, code generation, review, and documentation. The implementation should be reviewed and understood line by line before submission. The important architectural choices are intentionally simple so they can be explained clearly in an interview.
